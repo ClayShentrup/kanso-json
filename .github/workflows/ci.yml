@@ -16,4 +16,4 @@ jobs:
           path: kanso
       - uses: dtolnay/rust-toolchain@stable
       - run: cargo build --release --manifest-path kanso/Cargo.toml
-      - run: ./kanso/target/release/kanso test json.kso
+      - run: ./kanso/target/release/kanso test .
